@@ -76,3 +76,39 @@ class Rental
         this.days = days;
     }
 }    
+
+
+
+class CarRentalSystem
+{
+    private List<Car> cars;
+    private List<Rental> rentals;
+
+    public CarRentalSystem()
+    {
+        cars=new ArrayList<>();
+        customers =new ArrayList<>();
+        rentals =new ArrayList<>();
+
+    }
+
+    public void addCar(Car car)
+    {
+        cars.add(car);
+    }
+
+    public void addCustomer(Customer coustomer)
+    {
+        coustomer.add(coustomer);
+    }
+
+    public void rentCar(Car car, Coustomer coustomer, int days)
+    {
+        if(Car.isAvilable())
+        {
+            car.rent();
+            rentals.add(new Rental)
+        }
+    }
+
+}
