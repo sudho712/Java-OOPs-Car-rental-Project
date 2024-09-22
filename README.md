@@ -1,5 +1,5 @@
 
-PS D:\PLECEMENT\Car Rent Project>  & 'C:\Program Files\Java\jdk-21\bin\java.exe' '-agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:54360' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Users\sudhi\AppData\Roaming\Code\User\workspaceStorage\e619905a210d2ce17b43d7a7dd952425\redhat.java\jdt_ws\Car Rent Project_ced760dd\bin' 'Main' 
+
 How many cars do you want to add? 2
 Enter details for car 1:
 Enter Car ID: 101
